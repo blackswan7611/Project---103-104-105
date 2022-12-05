@@ -1,0 +1,62 @@
+body
+{
+    background-color:rgb(174, 199, 239);
+    color: rgb(55, 143, 149);
+    font-size: medium;
+}
+
+.heading
+{
+   width: 80%;
+   font-size: 30px; 
+   font-family:'algerian';
+   font-style:oblique;
+   color:aquamarine;
+   background-color: darkslateblue;
+}
+
+.name_of_objects
+{
+    color: rgb(65, 48, 199);
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#resultObjectName
+{
+    color: rgb(53, 122, 53);
+}
+
+#webcam
+{
+    border:2px dashed black;
+    width: 350px;
+    height:300px;
+}
+
+.webcamView
+{
+   font-family: alegerian; 
+}
+
+#camera
+{
+     background-size: 50px; 
+     animation-name: animation; 
+     animation-duration: 4s; 
+     animation-iteration-count: infinite; 
+} 
+    
+    @keyframes animation 
+    { 
+        from
+        {
+            box-shadow: -20px -10px 30px blue;
+        } 
+        to
+        {
+            box-shadow: 10px 20px 30px red;
+        } 
+        }
